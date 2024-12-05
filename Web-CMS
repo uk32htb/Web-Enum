@@ -1,0 +1,5 @@
+We can use below commands to enumerate the WEB 
+
+1) whatweb <URL>
+2) nikto -h <URL>
+3) wafw00f <URL> {pip3 install git+https://github.com/EnableSecurity/wafw00f}
