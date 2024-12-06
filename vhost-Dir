@@ -1,3 +1,5 @@
 Diffrent commands for enumerating vhost 
 
 gobuster vhost -u http://<target_IP_address> -w <wordlist_file /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-110000.txt> --append-domain
+
+gobuster dir -u http://<target_IP_address> -w <wordlist> -x html,php,ps,txt -b 404,400,403 -t 90
